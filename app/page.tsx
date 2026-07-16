@@ -32,7 +32,7 @@ export default function Home() {
             alt="Python Colombia"
             width={480}
             height={148}
-            preload
+            priority
             className="w-56 sm:w-72 md:w-[420px] h-auto"
           />
         </div>
