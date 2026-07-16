@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CurrentYear from "./current-year";
 
 export default function Home() {
   return (
@@ -77,7 +78,7 @@ export default function Home() {
       {/* ── Footer ────────────────────────────────────────────── */}
       <footer className="relative z-10 pb-8 text-center">
         <p className="text-zinc-600 text-sm">
-          © {new Date().getFullYear()} Python Colombia
+          © <CurrentYear /> Python Colombia
           <span className="mx-2 text-zinc-700">·</span>
           Comunidad de Python en Colombia
         </p>
