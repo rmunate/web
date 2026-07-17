@@ -33,4 +33,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 This repository is deployed using GitHub Pages via `.github/workflows/deploy.yml`.
 
-The site is exported statically (`output: "export"`), and the generated files are published from the `out/` directory.
+The site is exported statically (`output: "export"`), and the generated files are published from the `dist/` directory.
