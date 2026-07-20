@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
   title: {
     default: "Python Colombia | Comunidad Oficial de Python en Colombia",
     template: "%s | Python Colombia",
